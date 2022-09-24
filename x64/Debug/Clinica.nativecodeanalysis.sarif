@@ -1,0 +1,83 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/clinica.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f1c41550219552fa7ff8459641353ecfd784640f00b8f7c48987ac22fbed3ba8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/clinica.h"
+          },
+          "hashes": {
+            "sha-256": "a575a2b30b7a1149b9923a11d537c5ae022846d78010c6e6e6cf706929ac327f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/animal.h"
+          },
+          "hashes": {
+            "sha-256": "0906e9618a97020a3a6e256f5d2d201e7bd482db390b7ee723a14f558a36634c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/intervencao.h"
+          },
+          "hashes": {
+            "sha-256": "925d09b491fedc7d4db46bad34eca653add69ca80bc749f32adbc6b4813a8a3a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/internamento.h"
+          },
+          "hashes": {
+            "sha-256": "d690418ec601a0d6ce45b71f374f7c1ac1b786b877208aaf94f0bcc723f9daa0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/operacao.h"
+          },
+          "hashes": {
+            "sha-256": "434376338eb14219d1d276ed048f916d12e72f14604d0edb588fb4df62d68321"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/consulta.h"
+          },
+          "hashes": {
+            "sha-256": "6ae743bae3f9104733108b2fb5ed0286bdb5e34e957356e6cb59845664e37a85"
+          }
+        }
+      ]
+    }
+  ]
+}

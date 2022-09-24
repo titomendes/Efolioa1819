@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/operacao.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "2c1a6c5a947cb228a68a7399821f8499081bc64a9705b413f1a0d864a2d12117"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/intervencao.h"
+          },
+          "hashes": {
+            "sha-256": "925d09b491fedc7d4db46bad34eca653add69ca80bc749f32adbc6b4813a8a3a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/animal.h"
+          },
+          "hashes": {
+            "sha-256": "f3cbe2fa7e436c23b22ed433c781b973f211fcd3b6158f3bcc1bb0f816a60e94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/operacao.h"
+          },
+          "hashes": {
+            "sha-256": "4871eee9b062fd7605bfc06d11806a6abd96325aa74f79565fbd1f41c2b1c2aa"
+          }
+        }
+      ]
+    }
+  ]
+}

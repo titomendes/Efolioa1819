@@ -1,0 +1,146 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "A variável 'Animal::tipo' não foi inicializada. Sempre inicialize uma variável de membro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tito_/source/repos/EfolioAPOO1819Vers/EfolioAPOO1819Vers/Animal.cpp"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 9,
+                  "endLine": 5,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Animal::{ctor}",
+                  "decoratedName": "??0Animal@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H00HW4Especie@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Animal::tipo"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "A variável 'Animal::telefone' não foi inicializada. Sempre inicialize uma variável de membro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tito_/source/repos/EfolioAPOO1819Vers/EfolioAPOO1819Vers/Animal.cpp"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 9,
+                  "endLine": 5,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Animal::{ctor}",
+                  "decoratedName": "??0Animal@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H00HW4Especie@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Animal::telefone"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "A variável 'Animal::idade' não foi inicializada. Sempre inicialize uma variável de membro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tito_/source/repos/EfolioAPOO1819Vers/EfolioAPOO1819Vers/Animal.cpp"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 9,
+                  "endLine": 5,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Animal::{ctor}",
+                  "decoratedName": "??0Animal@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H00HW4Especie@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Animal::idade"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/tito_/source/repos/EfolioAPOO1819Vers/EfolioAPOO1819Vers/Animal.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "65c1bd2e159cffbf3e5df3ca5554481514c2e43030d9ac2d968089d61e9d3ccd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/animal.h"
+          },
+          "hashes": {
+            "sha-256": "0906e9618a97020a3a6e256f5d2d201e7bd482db390b7ee723a14f558a36634c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tito_/source/repos/efolioapoo1819vers/efolioapoo1819vers/intervencao.h"
+          },
+          "hashes": {
+            "sha-256": "925d09b491fedc7d4db46bad34eca653add69ca80bc749f32adbc6b4813a8a3a"
+          }
+        }
+      ]
+    }
+  ]
+}
